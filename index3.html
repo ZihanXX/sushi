@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Visualization</title>
+
+    <!-- d3 libraries -->
+    <link rel="stylesheet" href="css/scatter.css" charset="utf-8">
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+
+
+    <!-- Include Bootstrap and jQuery: -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+    <!-- Include the plugin's CSS and JS: -->
+    <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+  </head>
+
+
+  <body style="font-family:Montserrat;">
+    <div id="scatter" style="float: left; margin: 20px;">
+      <script src="js/scatter.js" charset="utf-8"></script>
+    </div>
+
+    <div style="float: left; margin-top: 65px;">
+      <select id="example-multiple-optgroups" multiple="multiple">
+        <optgroup label="North America" class="group-1">
+          <option value="Canada">Canada</option>
+          <option value="Mexico">Mexico</option>
+          <option value="United States">United States</option>
+        </optgroup>
+        <optgroup label="South America" class="group-2">
+          <option value="Argentina">Argentina</option>
+          <option value="Brazil">Brazil</option>
+          <option value="Chile">Chile</option>
+          <option value="Colombia">Colombia</option>
+        </optgroup>
+        <optgroup label="Asia" class="group-3">
+          <option value="China">China</option>
+          <option value="Hong Kong">Hong Kong</option>
+          <option value="India">India</option>
+          <option value="Indonesia">Indonesia</option>
+          <option value="Japan">Japan</option>
+          <option value="Malaysia">Malaysia</option>
+          <option value="Philippines">Philippines</option>
+          <option value="Singapore">Singapore</option>
+          <option value="South Korea">South Korea</option>
+          <option value="Taiwan">Taiwan</option>
+          <option value="Thailand">Thailand</option>
+        </optgroup>
+        <optgroup label="Europe" class="group-4">
+          <option value="Austria">Austria</option>
+          <option value="Belgium">Belgium</option>
+          <option value="Czech Republic">Czech Republic</option>
+          <option value="Denmark">Denmark</option>
+          <option value="Estonia">Estonia</option>
+          <option value="Finland">Finland</option>
+          <option value="France">France</option>
+          <option value="Germany">Germany</option>
+          <option value="Greece">Greece</option>
+          <option value="Ireland">Ireland</option>
+          <option value="Italy">Italy</option>
+          <option value="Netherlands">Netherlands</option>
+          <option value="Norway">Norway</option>
+          <option value="Poland">Poland</option>
+          <option value="Portugal">Portugal</option>
+          <option value="Spain">Spain</option>
+          <option value="Sweden">Sweden</option>
+          <option value="Switzerland">Switzerland</option>
+          <option value="United Kingdom">United Kingdom</option>
+        </optgroup>
+        <optgroup label="Eastern Europe" class="group-5">
+          <option value="Belarus">Belarus</option>
+          <option value="Kazakhstan">Kazakhstan</option>
+          <option value="Russia">Russia</option>
+          <option value="Ukraine">Ukraine</option>
+        </optgroup>
+        <optgroup label="Oceania" class="group-6">
+          <option value="Australia">Australia</option>
+          <option value="New Zealand">New Zealand</option>
+        </optgroup>
+        <optgroup label="Middile East" class="group-7">
+          <option value="Israel">Israel</option>
+          <option value="Lebanon">Lebanon</option>
+          <option value="Qatar">Qatar</option>
+          <option value="Saudi Arabia">Saudi Arabia</option>
+        </optgroup>
+        <optgroup label="Africa" class="group-8">
+          <option value="Egypt">Egypt</option>
+          <option value="South Africa">South Africa</option>
+        </optgroup>
+      </select>
+    </div>
+
+
+
+  </body>
+</html>
